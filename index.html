@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIK-TAK-TOE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mainbody">
+      <h3>TIK-TAK-TOE</h3>
+      <button id="playgame" onclick="playstart()">PLAY</button>
+      <div class="container" id="containerr">
+        <div class="corner" id="one" onclick="markbox(this.id)"></div>
+        <div class="midup" id="two" onclick="markbox(this.id)"></div>
+        <div class="corner" id="three" onclick="markbox(this.id)"></div>
+        <div class="midsideleft" id="four" onclick="markbox(this.id)"></div>
+        <div class="center" id="five" onclick="markbox(this.id)"></div>
+        <div class="midsideright" id="six" onclick="markbox(this.id)"></div>
+        <div class="corner" id="seven" onclick="markbox(this.id)"></div>
+        <div class="middown" id="eight" onclick="markbox(this.id)"></div>
+        <div class="corner" id="nine" onclick="markbox(this.id)"></div>
+      </div>
+      <h4 id="result" style=" margin-top: 10px; color: white;"></h4>
+      <button id="playagain" onclick="playagain()" style="display: none;" >START AGAIN</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

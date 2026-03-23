@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, grey, black);
+}
+.mainbody {
+  background-color: black;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 500px;
+}
+h3 {
+  margin-top: 12px;
+    color: white;
+    text-align: center;
+}
+
+.container {
+  margin-top: 20px;
+  display: none;
+  grid-template-columns: 75px 75px 75px;
+  width: max-content; 
+  row-gap: 3px;
+  column-gap: 3px;
+}
+.corner,
+.midup,
+.midsideleft,
+.midsideright,
+.center,
+.middown {
+background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  width: 70px;
+  height: 70px;
+  border-width: 2px;
+}
+div{
+    font-weight: 900;
+    font-size: x-large;
+}
+div:hover{
+    scale: 1.018;
+    opacity: 0.97;
+}
+.mainbody:hover{
+    scale: 1;
+    opacity: 1;
+    box-shadow: 0px 0px 10px white ,0px 0px 50px lightblue;
+}
+.container:hover{
+    scale: 1;
+    opacity: 1;
+    
+}
+#playagain,#playgame{
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+    width: 150px;
+    border: none;
+    box-shadow: 0px 0px 10px white;
+    transition: 0.2s;
+}
+#playgame:hover,
+#playagain:hover{
+    scale: 1.2;
+    box-shadow: 0px 0px 10px lightblue;
+}
