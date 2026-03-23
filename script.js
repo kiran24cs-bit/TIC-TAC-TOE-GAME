@@ -54,6 +54,9 @@ function checkresult() {
      else if (three == five && five == seven && (three == "X" || three == "O")) {
       document.getElementById("result").innerHTML = three + " WON ";
     }
+    else if (count==9){
+      document.getElementById("result").innerHTML = "MATCH TIE";
+    }
   }
 }
 
