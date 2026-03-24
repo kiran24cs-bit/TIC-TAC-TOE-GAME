@@ -56,6 +56,7 @@ function checkresult() {
     }
     else if (count==9){
       document.getElementById("result").innerHTML = "MATCH TIE";
+      
     }
   }
 }
@@ -66,5 +67,6 @@ function playagain() {
   for (let i = 0; i < nboxes.length; i++) {
     nboxes[i].innerHTML = null;
   }
+  count=0;
   document.getElementById("result").innerHTML ="";
 }
